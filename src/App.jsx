@@ -1,4 +1,3 @@
-import "./App.css";
 import React, { useState } from "react";
 import { PostalCode } from "./components/PostalCode.jsx";
 import { LocationInfo } from "./components/LocationInfo.jsx";

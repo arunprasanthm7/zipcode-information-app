@@ -1,5 +1,3 @@
-import "../App.css";
-
 export function LocationInfo({ locationData }) {
   return (
     <div className="flex gap-4">
