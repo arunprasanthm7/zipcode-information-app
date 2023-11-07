@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { PostalCode } from "./components/PostalCode.jsx";
 import { LocationInfo } from "./components/LocationInfo.jsx";
+
 function App() {
   const [locationData, setLocationData] = useState(null);
   const [loading, setLoading] = useState(false);
