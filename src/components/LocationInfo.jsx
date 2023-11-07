@@ -14,7 +14,7 @@ export function LocationInfo({ locationData }) {
           </div>
           <div className="flex text-[12px] gap-1 text-sm ">
             <div className="font-semibold">Place Name :</div>
-            <div>{locationData.places[0].placename}</div>
+            <div>{locationData.places[0]['place name']}</div>
           </div>
         </div>
       ) : (

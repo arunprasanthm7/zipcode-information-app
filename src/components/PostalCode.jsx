@@ -10,14 +10,14 @@ export function PostalCode({ onZipCodeSubmit }, { clearLocationInfo }) {
   return (
     <form className="flex gap-4 items-center">
       <label htmlFor="zipCodeInput" className="text-base font-semibold ">
-        PostalCode :
+        PostalCode[IN] :
       </label>
       <input
         type="text"
         id="zipCodeInput"
         value={zipCode}
         onChange={(e) => setZipCode(e.target.value)}
-        placeholder="Enter the Pincode..."
+        placeholder="Enter the PostalCode..."
         required
         className="text-[14px] pl-1 h-6 border border-black rounded "
       />
