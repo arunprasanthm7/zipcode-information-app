@@ -30,7 +30,8 @@ function App() {
       });
   };
 
-  const clearLocationInfo = () => {
+  const clearLocationInfo = (e) => {
+    e.preventDefault();
     setLocationData(null);
     setError(null);
   };
